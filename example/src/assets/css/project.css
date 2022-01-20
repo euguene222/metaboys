@@ -1,0 +1,44 @@
+.project-content{
+    padding: 47px 32px 31px 57px;
+    background: radial-gradient(289.23% 295.55% at 8.37% 0%, rgba(28, 27, 27, 0.22) 0%, rgba(255, 255, 255, 0.25) 99.93%);
+    backdrop-filter: blur(5px);
+    text-align: left;
+}
+#the-projects{
+    position: relative;
+}
+#the-projects .title h1{
+    font-size: 85px;
+}
+#the-projects .title span{
+    position: relative;
+}
+#the-projects .title h1 span::before{
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    top: 5px;
+    left: -60px;
+    background: radial-gradient(191.99% 200.52% at 8.37% 0%, rgba(28, 27, 27, 0.36) 0%, rgba(255, 255, 255, 0.07) 100%);
+    backdrop-filter: blur(5px);
+}
+#the-projects > .container{
+    display: flex;
+    margin-bottom: 350px;
+}
+.project-back{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left : 25%;
+    object-fit: cover;
+    top: 150px;
+}
+.marquee-container .overlay{
+    display: none;
+}
+.marquee-container span{
+    font-size: 37.17px;
+
+}

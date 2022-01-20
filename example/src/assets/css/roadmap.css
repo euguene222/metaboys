@@ -1,0 +1,91 @@
+#the-roadmap{
+    position: relative;
+}
+#the-roadmap .title h1{
+    font-size: 85px;
+}
+#the-roadmap .title span{
+    position: relative;
+}
+#the-roadmap .title h1 span::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 5px;
+    left: -70px;
+    background: radial-gradient(191.99% 200.52% at 8.37% 0%, rgba(28, 27, 27, 0.36) 0%, rgba(255, 255, 255, 0.07) 100%);
+    backdrop-filter: blur(5px);
+}
+.roadmap-item{
+    position: relative;
+    display: flex;
+}
+.roadmap-item > div{
+    margin-bottom: 70px;
+    padding: 48px;
+    background: radial-gradient(191.99% 200.52% at 8.37% 0%, rgba(16, 15, 23, 0.36) 0%, rgba(68, 67, 74, 0.294483) 86.29%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(15px);
+    z-index: 2;
+}
+.roadmap-item h1{
+    margin-top: 0px;
+}
+
+.roadmap-item svg{
+    position: absolute;
+    width: 90px;
+    top: 38px;
+}
+circle {
+    transition: all 0.7s ease-in-out;
+  }
+  
+.roadmap-item .index{
+    font-family: "HeadingNow-94Regular";
+    /* position: absolute; */
+    font-size: 175px;
+    min-width: 155px;
+    justify-content: flex-end;
+    display: flex;
+    /* top: calc(50% - 130px); */
+    z-index: 1;
+}
+
+.mleft {
+    flex-direction: row-reverse;
+    padding-left: 125px;
+    text-align: right;
+
+}
+
+.mright {
+    flex-direction: row;
+    text-align: left;
+    padding-right: 125px;
+
+}
+
+.mleft .index {
+    margin-left: -30px;
+    justify-self: flex-end;
+}
+
+.mright .index {
+    margin-right: -30px;
+    justify-self: flex-start;
+}
+.mleft > div{
+    padding-left: 80px;
+}
+.mright > div{
+    padding-right: 80px;
+}
+
+.roadmap-item h1{
+    font-size: 40px;
+}
+
+.roadmap-item p{
+    font-size: 20px;
+}

@@ -1,0 +1,55 @@
+#the-team{
+    position: relative;
+}
+#the-team .title h1{
+    font-size: 85px;
+}
+#the-team .title span{
+    position: relative;
+}
+#the-team .title h1 span::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 5px;
+    left: -70px;
+    background: radial-gradient(191.99% 200.52% at 8.37% 0%, rgba(28, 27, 27, 0.36) 0%, rgba(255, 255, 255, 0.07) 100%);
+    backdrop-filter: blur(5px);
+}
+.team-item{
+    position: relative;
+    padding: 40px;
+
+}
+.team-item .m-card{
+    margin-bottom: 70px;
+    padding: 10px;
+}
+.m-card hr{
+    width: 20%;
+    margin-left: 40%;
+}
+.m-card h5{
+    font-family: "e-Ukraine";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+.m-card p{
+    font-family: "e-Ukraine";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+}
+.m-shadow{
+    background: radial-gradient(191.99% 200.52% at 8.37% 0%, rgba(16, 15, 23, 0.36) 0%, rgba(68, 67, 74, 0.294483) 86.29%, rgba(255, 255, 255, 0.06) 100%);
+    backdrop-filter: blur(15px);
+    z-index: 2;
+}
+.team-item img{
+    padding: 20px;
+    margin-bottom: -70px;
+}
